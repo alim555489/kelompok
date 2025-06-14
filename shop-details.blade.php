@@ -55,17 +55,18 @@
             <ul>
                 <li>USD <span class="arrow_carrot-down"></span>
                     <ul>
-                        <li>EUR</li>
+                        <li>IDR</li>
                         <li>USD</li>
                     </ul>
                 </li>
                 <li>ENG <span class="arrow_carrot-down"></span>
                     <ul>
-                        <li>Spanish</li>
+                        <li>IND</li>
                         <li>ENG</li>
                     </ul>
                 </li>
-                <li><a href="#">Sign in</a> <span class="arrow_carrot-down"></span></li>
+                <li><a href="{{ route ('login') }}">Sign in</a> <span class="arrow_carrot-down"></span></li>
+                <li><a href="{{ route ('register') }}">Sign up</a> <span class="arrow_carrot-down"></span></li>
             </ul>
         </div>
     </div>
@@ -82,17 +83,18 @@
                                 <ul>
                                     <li>USD <span class="arrow_carrot-down"></span>
                                         <ul>
-                                            <li>EUR</li>
+                                            <li>IDR</li>
                                             <li>USD</li>
                                         </ul>
                                     </li>
                                     <li>ENG <span class="arrow_carrot-down"></span>
                                         <ul>
-                                            <li>Spanish</li>
+                                            <li>IND</li>
                                             <li>ENG</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Sign in</a> <span class="arrow_carrot-down"></span></li>
+                                    <li><a href="{{ route ('login') }}">Sign in</a> <span class="arrow_carrot-down"></span></li>
+                                    <li><a href="{{ route ('register') }}">Sign up</a> <span class="arrow_carrot-down"></span></li>
                                 </ul>
                             </div>
                             <div class="header__logo">
@@ -119,16 +121,16 @@
                 <div class="col-lg-12">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="./about.html">About</a></li>
-                            <li class="active"><a href="./shop.html">Shop</a></li>
-                            <li><a href="#">Pages</a>
+                            <li><a href="{{ url ('/')}}">Home</a></li>
+                            <li><a href="{{ url ('/about')}}">About</a></li>
+                            <li class="active"><a href="{{ url ('/shop')}}">Shop</a></li>
+                            <li><a href="{{ url ('/pages') }}">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
-                                    <li><a href="./wisslist.html">Wisslist</a></li>
-                                    <li><a href="./Class.html">Class</a></li>
+                                    <li><a href="{{ url ('/shop-details')}}">Shop Details</a></li>
+                                    <li><a href="{{ url ('/shoping-cart')}}">Shoping Cart</a></li>
+                                    <li><a href="{{ url ('/checkout')}}">Check Out</a></li>
+                                    <li><a href="{{ url ('/wisslist')}}">Wisslist</a></li>
+                                    <li><a href="{{ url ('/Class')}}">Class</a></li>
                                     <li><a href="./blog-details.html">Blog Details</a></li>
                                 </ul>
                             </li>

@@ -6,6 +6,18 @@
 
         <title>Laravel</title>
 
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{ asset('css/flaticon.css')}}">
+        <link rel="stylesheet" href="{{ asset('css/barfiller.css')}}">
+        <link rel="stylesheet" href="{{ asset('css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{ asset ('css/font-awesome.min.css')}}">
+        <link rel="stylesheet" href="{{ asset ('css/elegant-icons.css')}}"> 
+        <link rel="stylesheet" href="{{ asset ('css/nice-select.css')}}"> 
+        <link rel="stylesheet" href="{{ asset ('css/owl.carousel.min.css')}}"> 
+        <link rel="stylesheet" href="{{ asset ('css/slicknav.min.css')}}"> 
+        <link rel="stylesheet" href="{{ asset ('css/style.css')}}">
+
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
@@ -13,6 +25,17 @@
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
             @vite(['resources/css/app.css', 'resources/js/app.js'])
+        
+        <!-- Js Plugins -->
+        <script src="{{ asset ('js/jquery-3.3.1.min.js')}}"></script>
+        <script src="{{ asset ('js/bootstrap.min.js')}}"></script>
+        <script src="{{ asset ('js/jquery.nice-select.min.js')}}"></script>
+        <script src="{{ asset ('js/jquery.barfiller.js')}}"></script>
+        <script src="{{ asset ('js/jquery.magnific-popup.min.js')}}"></script>
+        <script src="{{ asset ('js/jquery.slicknav.js')}}"></script>
+        <script src="{{ asset ('js/owl.carousel.min.js')}}"></script>
+        <script src="{{ asset ('js/jquery.nicescroll.min.js')}}"></script>
+        <script src="{{ asset ('js/main.js')}}"></script>   
         
     </head>
     <body class="bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] flex p-6 lg:p-8 items-center lg:justify-center min-h-screen flex-col">
@@ -33,6 +56,7 @@
                         >
                             Log in
                         </a>
+                        @endif
 
                         @if (Route::has('register'))
                             <a

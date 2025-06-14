@@ -121,21 +121,21 @@
                 <div class="col-lg-12">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li class="active"><a href="{{ url ('/home')}}">Home</a></li>
+                            <li class="active"><a href="{{ url ('/')}}">Home</a></li>
                             <li><a href="{{ url('/about') }}">About</a></li>
                             <li><a href="{{ url('/shop') }}">Shop</a></li>
-                            <li><a href="{{ url('pages') }}">Pages</a>
+                            <li><a href="{{ url('/pages') }}">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="{{ url ('/shop-details')}}">Shop Details</a></li>
                                     <li><a href="{{ url ('/shoping-cart')}}">Shoping Cart</a></li>
                                     <li><a href="{{ url ('/checkout')}}">Check Out</a></li>
                                     <li><a href="{{ url ('/wisslist')}}">Wisslist</a></li>
-                                    <li><a href="{{ url ('/wisslist')}}"></a>
-                                    <li><a href="{{ url ('/wisslist')}}"></a>
+                                    <li><a href="{{ url ('/Class')}}">Class</a></li>
+                                    <li><a href="{{ url ('/blog-details')}}">Blog Details</a></li>
                                 </ul>
+                            <li class="active"><a href="{{ url ('/blog')}}">Blog</a></li>
+                            <li><a href="{{ url ('/contact')}}">Contact</a></li>   
                             </li>
-                            <li><a href="{{ url ('/wisslist')}}"></a></a>
-                            <><a href="{{ url ('/wisslist')}}"></a>
                         </ul>
                     </nav>
                 </div>
