@@ -124,7 +124,7 @@
                             <li><a href="{{ url ('/home')}}">Home</a></li>
                             <li class="active"><a href="{{ url ('/about')}}">About</a></li>
                             <li><a href="{{ url ('/shop')}}">Shop</a></li>
-                            <li><a href="{{ url ('pages')}}">Pages</a>
+                            <li><a href="{{ url ('/pages')}}">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="{{ url ('/shop-details')}}">Shop Details</a></li>
                                     <li><a href="{{ url ('/shoping-cart')}}">Shoping Cart</a></li>

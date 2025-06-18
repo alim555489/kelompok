@@ -110,7 +110,7 @@ ol {
   margin-bottom: 35px;
 }
 .section-title span {
-  color: #f08632;
+  color: #d2b48d;
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
@@ -159,7 +159,7 @@ ol {
   text-transform: uppercase;
   padding: 14px 30px;
   color: #ffffff;
-  background: #f08632;
+  background: #d2b48d;
   letter-spacing: 2px;
 }
 
@@ -308,7 +308,7 @@ ol {
   Header
 -----------------------*/
 .header {
-  background: #f08632;
+  background: #502e22;
 }
 
 .header__top {
@@ -547,7 +547,7 @@ ol {
   top: 15px;
   height: calc(100% - 30px);
   width: calc(100% - 30px);
-  border: 1px dashed #f08632;
+  border: 1px dashed #d2b48d;
   content: "";
   opacity: 0.3;
 }
@@ -642,8 +642,8 @@ ol {
   bottom: -48px;
   width: 15px;
   height: 15px;
-  border: 1px solid #f08632;
-  border-color: transparent #f08632 #f08632 transparent;
+  border: 1px solid #d2b48d;
+  border-color: transparent #d2b48d #d2b48d transparent;
   content: "";
   -webkit-transform: rotate(-135deg);
       -ms-transform: rotate(-135deg);
@@ -654,7 +654,7 @@ ol {
   transition: all, 0.3s;
 }
 .categories__item:hover {
-  background: #f08632;
+  background: #d2b48d;
 }
 .categories__item:hover:after {
   opacity: 1;
@@ -667,7 +667,7 @@ ol {
 }
 
 .categories__item__icon span {
-  color: #f08632;
+  color: #d2b48d;
   -webkit-transition: all, 0.2s;
   -o-transition: all, 0.2s;
   transition: all, 0.2s;
@@ -769,7 +769,7 @@ ol {
   display: inline-block;
   width: 70px;
   height: 70px;
-  background: #f08632;
+  background: #d2b48d;
   font-size: 24px;
   color: #ffffff;
   line-height: 70px;
@@ -1033,7 +1033,7 @@ ol {
   margin-bottom: 40px;
 }
 .product__item:hover .product__item__pic .product__label span {
-  background: #f08632;
+  background: #d2b48d;
   color: #ffffff;
 }
 .product__item:hover .product__item__text .product__item__price {
@@ -1232,7 +1232,7 @@ ol {
 }
 .footer__newslatter form button {
   font-size: 20px;
-  color: #f08632;
+  color: #d2b48d;
   background: transparent;
   border: none;
   position: absolute;
@@ -1254,10 +1254,10 @@ ol {
   color: #888888;
 }
 .copyright__text i {
-  color: #f08632;
+  color: #d2b48d;
 }
 .copyright__text a {
-  color: #f08632;
+  color: #d2b48d;
 }
 
 .copyright__widget {
@@ -1383,7 +1383,7 @@ ol {
   display: inline-block;
   width: 70px;
   height: 70px;
-  background: #f08632;
+  background: #d2b48d;
   font-size: 24px;
   color: #ffffff;
   line-height: 70px;
@@ -1408,7 +1408,6 @@ ol {
   position: relative;
 }
 .shop__option__search form .nice-select {
-  float: left;
   border: none;
   background: transparent;
   display: inline-block;
@@ -3045,11 +3044,6 @@ ol {
 /*---------------------
   Contact
 -----------------------*/
-.contact .map {
-  height: 400px;
-  margin-bottom: 70px;
-}
-
 .contact__address {
   padding-bottom: 40px;
   border-bottom: 1px solid #e8eff4;
@@ -3058,9 +3052,14 @@ ol {
 
 .contact__address__item {
   margin-bottom: 30px;
+  border: 1px solid #e1e1e1;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px; 
+  background-color: #8c4e22;
 }
 .contact__address__item h6 {
-  color: #111111;
+  color: #ffffff;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 25px;
@@ -3075,20 +3074,20 @@ ol {
 }
 .contact__address__item ul li span {
   font-size: 24px;
-  color: #111111;
+  color: #ffffff;
   margin-right: 25px;
   float: left;
 }
 .contact__address__item ul li p {
   font-size: 14px;
-  color: #444444;
+  color: #ffffff;
   line-height: 26px;
   margin-bottom: 0;
   overflow: hidden;
 }
 
 .contact__text h3 {
-  color: #111111;
+  color: #ffffff;
   font-weight: 700;
   font-style: italic;
   font-family: "Playfair Display", serif;
@@ -3100,7 +3099,7 @@ ol {
 .contact__text ul li {
   list-style: none;
   font-size: 16px;
-  color: #444444;
+  color: #ffffff;
   line-height: 36px;
 }
 
@@ -3110,7 +3109,7 @@ ol {
   border: 1px solid #e1e1e1;
   background: #fafafa;
   font-size: 14px;
-  color: #111111;
+  color: #ffffff;
   padding-left: 20px;
   margin-bottom: 30px;
 }
@@ -3123,14 +3122,14 @@ ol {
   border: 1px solid #e1e1e1;
   background: #fafafa;
   font-size: 14px;
-  color: #111111;
+  color: #ffffff;
   padding-left: 20px;
   padding-top: 12px;
   margin-bottom: 24px;
   resize: none;
 }
 .contact__form form textarea:last-child {
-  color: #111111;
+  color: #ffffff;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/

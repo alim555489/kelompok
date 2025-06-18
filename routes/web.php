@@ -4,55 +4,43 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view ('welcome');
+    return view('home');
 });
 
-Route::get('/', function () {
-    return view ('home');
+Route::get('/home', function () {
+    return view('home');
 });
 
 Route::get('/about', function () {
-    return view ('about');
-});
-
-Route::get('/blog', function () {
-    return view ('blog');
-});
-
-Route::get('/blog-details', function () {
-    return view ('blog-details');
-});
-
-Route::get('/checkout', function () {
-    return view ('checkout');
-});
-
-Route::get('/class', function () {
-    return view ('class');
+    return view('about');
 });
 
 Route::get('/contact', function () {
-    return view ('contact');
-});
-
-Route::get('/main', function () {
-    return view ('main');
+    return view('contact');
 });
 
 Route::get('/shop', function () {
-    return view ('shop');
+    return view('shop');
+});
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/blog-details', function () {
+    return view('blog-details');
 });
 
 Route::get('/shop-details', function () {
-    return view ('shop-details');
+    return view('shop-details');
 });
 
-Route::get('/shoping-cart', function () {
-    return view ('shoping-cart');
+Route::get('/class', function () {
+    return view('class');
 });
 
-Route::get('/wisslist', function () {
-    return view ('wisslist');
+Route::get('/checkout', function () {
+    return view('checkout');
 });
 
 Route::get('/dashboard', function () {
