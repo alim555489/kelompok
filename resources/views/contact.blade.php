@@ -171,12 +171,12 @@
                         <div class="contact__address__item">
                             <h6>san bernardino</h6>
                             <ul>
-                                <li>
+                               <li>
                                     <span class="icon_pin_alt"></span>
-                                    <p>795 W 5th St, San Bernardino, CA 92410, USA</p>
+                                    <p>Jl. Mawar No.15 Kota Cirebon</p>
                                 </li>
                                 <li><span class="icon_headphones"></span>
-                                    <p>+1 800-786-1000</p>
+                                    <p>Open : 9.00 - 21.00</p>
                                 </li>
                                 <li><span class="icon_mail_alt"></span>
                                     <p>Sweetcake@support.com</p>
