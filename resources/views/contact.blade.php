@@ -154,7 +154,7 @@
                                 <h6>COlorado</h6>
                                 <ul>
                                     <li>1000 Lakepoint Dr, Frisco, CO 80443, USA</li>
-                                    <li>Sweetcake@support.com</li>
+                                    <li>@cakebakeryten</li>
                                     <li>+1 800-786-1000</li>
                                 </ul>
                             </div>
